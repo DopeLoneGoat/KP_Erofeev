@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="AI8K5Hbkj2T9dBYi5RrT">
+    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-23" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Si2_5uh7qyWDR-9q0jf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(249, 250, 251), rgb(255, 255, 255));&quot;&gt;Начало&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="221" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-22" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Si2_5uh7qyWDR-9q0jf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;scanf&lt;span style=&quot;color:#ffd702&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#a31515&quot;&gt;&quot;%lf&quot;&lt;/span&gt;, &amp;amp;X&lt;span style=&quot;color:#ffd702&quot;&gt;)&lt;/span&gt;;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="201" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-11" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Si2_5uh7qyWDR-9q0jf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;&lt;span style=&quot;color:#808080&quot;&gt;X&lt;/span&gt; &amp;lt; 50&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="126" x="218" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-13" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Si2_5uh7qyWDR-9q0jf-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395.5" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-17" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Si2_5uh7qyWDR-9q0jf-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595.5" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;&lt;span style=&quot;color:#808080&quot;&gt;X&lt;/span&gt; &amp;lt;= 80&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="80" width="126" x="450" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-21" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Si2_5uh7qyWDR-9q0jf-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205.5" y="690" />
+              <mxPoint x="395.5" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;&lt;span style=&quot;color:#0000ff&quot;&gt;return&lt;/span&gt; 3 * log&lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#808080&quot;&gt;X&lt;/span&gt; - 50 + 2&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt; + 10;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="231" x="90" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-20" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Si2_5uh7qyWDR-9q0jf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; color: rgb(0, 0, 0);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;&lt;span style=&quot;color:#0000ff&quot;&gt;return&lt;/span&gt; 2 * &lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#808080&quot;&gt;X&lt;/span&gt; - 65&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt; + 48;&lt;/pre&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="231" x="280" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-19" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Si2_5uh7qyWDR-9q0jf-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; color: rgb(0, 0, 0);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;&lt;span style=&quot;color:#0000ff&quot;&gt;return&lt;/span&gt; 5 * sqrt&lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#808080&quot;&gt;X&lt;/span&gt; - 80 + 1&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt; + 58;&lt;/pre&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="231" x="480" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-15" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.472;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="-Si2_5uh7qyWDR-9q0jf-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-25" edge="1" parent="1" source="-Si2_5uh7qyWDR-9q0jf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Si2_5uh7qyWDR-9q0jf-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;pre style=&quot;font-family:&#39;Cascadia Mono&#39;;font-size:9pt;color:#000000&quot;&gt;printf&lt;span style=&quot;color:#ffd702&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#a31515&quot;&gt;&quot;Q(%.2f) = %.4f\n&quot;&lt;/span&gt;, X, Q&lt;span style=&quot;color:#d86ac2&quot;&gt;(&lt;/span&gt;X&lt;span style=&quot;color:#d86ac2&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;color:#ffd702&quot;&gt;)&lt;/span&gt;;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="285.5" x="252.75" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important;&quot;&gt;Конец&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="335.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="Да" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="Нет" vertex="1">
+          <mxGeometry height="60" width="120" x="535.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="Нет" vertex="1">
+          <mxGeometry height="60" width="120" x="361" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-Si2_5uh7qyWDR-9q0jf-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="Да" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
