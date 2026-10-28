@@ -1,0 +1,83 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="Q8wqj9d5CPw8rn35CfeY">
+    <mxGraphModel dx="1414" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Начало" vertex="1">
+          <mxGeometry height="40" width="120" x="350" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="input" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;" value="Ввод X1, X2" vertex="1">
+          <mxGeometry height="50" width="200" x="310" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cond1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="X1 &amp;lt;= 48.0 || X2 &amp;lt;= 48.0" vertex="1">
+          <mxGeometry height="100" width="160" x="330" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="err" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Вывод: &quot;Ошибка ОДЗ&quot;" vertex="1">
+          <mxGeometry height="50" width="180" x="80" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="funcQ" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#ffffff;strokeColor=#000000;size=0;" value="Q(X1), Q(X2)" vertex="1">
+          <mxGeometry height="50" width="146" x="337" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="status1 = check_control(q1);&lt;br&gt;status2 = check_control(q2);" vertex="1">
+          <mxGeometry height="60" width="240" x="290" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cond2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="status1 == 0 &amp;amp;&amp;amp; status2 == 0" vertex="1">
+          <mxGeometry height="100" width="160" x="330" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="outDev" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Вывод: &quot;Отклонение&quot;" vertex="1">
+          <mxGeometry height="50" width="200" x="80" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="outNorm" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Вывод: &quot;Норма&quot;" vertex="1">
+          <mxGeometry height="50" width="200" x="540" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Конец" vertex="1">
+          <mxGeometry height="40" width="120" x="350" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="input">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="cond1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="cond1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="err" value="Да">
+          <mxGeometry relative="1" x="-0.8261" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="cond1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="funcQ" value="Нет">
+          <mxGeometry relative="1" x="-0.8519" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="540" y="260" />
+              <mxPoint x="540" y="320" />
+              <mxPoint x="410" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="funcQ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="status" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="cond2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="cond2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="outDev" value="Да">
+          <mxGeometry relative="1" x="-0.75" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="cond2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="outNorm" value="Нет">
+          <mxGeometry relative="1" x="-0.6667" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="outDev" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="outNorm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
