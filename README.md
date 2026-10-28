@@ -36,7 +36,8 @@ $$
 
 
 **Основная блок-схема 1:**   
-<img width="662" height="802" alt="kp1" src="https://github.com/user-attachments/assets/b0170451-14f2-4d59-8f57-39758039af54" />
+<img width="679" height="802" alt="kp1i" src="https://github.com/user-attachments/assets/38034253-8e40-482b-9063-2e35268194cd" />
+
 
 
 **Статистический анализ блок-схема 2:**   
