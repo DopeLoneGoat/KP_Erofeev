@@ -35,11 +35,11 @@ $$
 ### Блок-схемы
 
 
-**Блок-схема 1:**   
+**Основная блок-схема 1:**   
 <img width="662" height="802" alt="kp1" src="https://github.com/user-attachments/assets/b0170451-14f2-4d59-8f57-39758039af54" />
 
 
-**Блок-схема 2:**   
+**Статистический анализ блок-схема 2:**   
 <img width="562" height="522" alt="kp2" src="https://github.com/user-attachments/assets/5e4ca057-0a1f-4fa8-a572-213cd0a6a1ff" />
 
 
